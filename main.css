@@ -1,0 +1,175 @@
+/* FONTS */
+@font-face {
+    font-family: "Overpass";
+    src: url(./font/Overpass-VariableFont_wght.ttf);
+}
+
+/* GENERAL */
+*{box-sizing: border-box;}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    text-decoration: none;
+    font-family: "Overpass";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    color: white;
+    background-color: black;
+}
+
+
+/* CAJA DE PUNTUACION */
+#puntuacion{
+    width: 400px;
+    min-width: 290px;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: hsl(216, 12%, 8%);
+    -webkit-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+#puntuacion .iconStart{
+    display: inline-flex;
+    padding: 15px;
+    margin-bottom: 8px;
+    border-radius: 100%;
+    background-color: hsl(216, 12%, 13%);
+    -webkit-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+#puntuacion h1{
+    font-weight: 700;
+}
+
+#puntuacion p{
+    color: hsl(216, 12%, 54%);
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+#puntuacion .areaPuntuacion{
+    display: flex;
+    justify-content: space-around;
+}
+
+#puntuacion .areaPuntuacion .points{
+    width: 45px;
+    text-align: center;
+    padding: 13px 20px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    font-family: "Overpass";
+    font-style: normal;
+    color: hsl(216, 12%, 54%);
+    cursor: pointer;
+    background-color: hsl(216, 12%, 13%);
+    -webkit-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition: background 500ms;
+    -webkit-transition: background 500ms;
+    -moz-transition: background 500ms;
+    -ms-transition: background 500ms;
+    -o-transition: background 500ms;
+}
+
+#puntuacion .areaPuntuacion .points:hover{
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+#puntuacion .btn_enviar{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Overpass";
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    -webkit-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: background 500ms;
+    -webkit-transition: background 500ms;
+    -moz-transition: background 500ms;
+    -ms-transition: background 500ms;
+    -o-transition: background 500ms;
+}
+
+#puntuacion .btn_enviar:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+/* THANKS YOU */
+
+#thanksYou{
+    display: none;
+    width: 400px;
+    min-width: 290px;
+    padding: 35px;
+    border-radius: 25px;
+    background-color: hsl(216, 12%, 8%);
+    -webkit-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+#thanksYou .flexi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#thanksYou img{
+    margin-bottom: 30px;
+}
+
+#thanksYou p{
+    text-align: center;
+    margin: 0;
+    line-height: 22px;
+    color: hsl(216, 12%, 54%);
+    font-weight: 200;
+}
+
+#thanksYou .yourSelection{
+    margin-bottom: 30px;
+    padding: 5px 25px;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 13%);
+    -webkit-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#thanksYou h2{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/* PULSADO */
+
+#puntuacion .areaPuntuacion .pulsado{
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+}
+
+
