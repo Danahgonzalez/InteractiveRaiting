@@ -14,12 +14,6 @@ is.forEach((i,index) =>{
     })
 })
 
-/*if(i.classList.contains('pulsado')){
-    i.classList.remove('pulsado')
-}else{
-    i.classList.add('pulsado')
-}*/
-
 form.addEventListener('submit',(e) =>{
     e.preventDefault();
 
